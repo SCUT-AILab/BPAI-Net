@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9a3da9ae-12cd-4701-89c3-84f1ac34c811" name="247">
+        <fileTransfer rootFolder="/home/nigengqin" accessType="SFTP" sshConfigId="6cffcb90-d0ed-478a-bdd9-17d10aa586ad" sshConfig="nigengqin@222.201.187.247:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="527a07cd-ffe1-46b2-ad4c-046b29a545da" name="nigengqin@202.38.200.181:22 key">
+        <fileTransfer rootFolder="/home/nigengqin" accessType="SFTP" host="202.38.200.181" port="22" sshConfigId="3ab6a85e-2430-44bf-b8ae-0fad61a01208" sshConfig="nigengqin@202.38.200.181:22 password" />
+      </webServer>
+    </option>
+  </component>
+</project>
