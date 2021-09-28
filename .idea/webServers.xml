@@ -12,6 +12,13 @@
       <webServer id="527a07cd-ffe1-46b2-ad4c-046b29a545da" name="nigengqin@202.38.200.181:22 key">
         <fileTransfer rootFolder="/home/nigengqin" accessType="SFTP" host="202.38.200.181" port="22" sshConfigId="3ab6a85e-2430-44bf-b8ae-0fad61a01208" sshConfig="nigengqin@202.38.200.181:22 password" />
       </webServer>
+      <webServer id="adb557cf-bd57-4a37-b644-c6130cb77685" name="16">
+        <fileTransfer accessType="SFTP" host="202.38.247.179" port="22" sshConfigId="acf68b7f-a5da-4643-912d-26b648df6981" sshConfig="nigengqin@202.38.247.179:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

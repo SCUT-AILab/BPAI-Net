@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" serverName="nigengqin@202.38.200.181:22 key">
     <serverData>
+      <paths name="16">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/cephfs/home/nigengqin/BPAI-Net" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="247">
         <serverdata>
           <mappings>
