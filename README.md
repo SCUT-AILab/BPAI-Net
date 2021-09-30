@@ -118,11 +118,3 @@ For any question, please file an issue or contact
 Gengqin Ni: gengqinni@gmail.com
 Runhao Zeng: runhaozeng.cs@gmail.com
 ```
-
- 
-
-[**drive&act**]    https://www.driveandact.com/ 
-
-[**checkpoints**]    https://drive.google.com/drive/folders/1Oqpa0o5Dfkd8Qku3w25Ys69020aJk9CH?usp=sharing 
-
-[**script**]  https://drive.google.com/drive/folders/1Oqpa0o5Dfkd8Qku3w25Ys69020aJk9CH?usp=sharing 
