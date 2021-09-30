@@ -72,11 +72,11 @@ Use the following commands to train BPAI-Net
 
 ```bash
 
-train BPAI-Net with ResNet50 backbone on Drive&Act
+#train BPAI-Net with ResNet50 backbone on Drive&Act
 
 python main_drive.py --arch fusion --arch_cnn resnet50 --num_segments 8  --xyc --first layer2  --dropout 0.8   --shift --mode train --root_model exp/test --root_log exp/test  --tune_from=pretrained/TSM_kinetics_RGB_resnet50_shift8_blockres_avg_segment8_e50.pth --gcn_pretrained=pretrained/st_gcn.kinetics.pt
 
-train BPAI-Net with ResNet50 backbone on PCL-BDB
+#train BPAI-Net with ResNet50 backbone on PCL-BDB
 
 python main_drive.py --dataset pcl --arch fusion --arch_cnn resnet50 --num_class 40 --num_segments 8 --first layer2 --xyc --batch-size 8 --dropout 0.8 --shift --mode train --root_model exp/test --root_log exp/test --root dataset/pcl-bdb/ --skeleton_json dataset/pcl-bdb/video_pose --tune_from=pretrained/TSM_kinetics_RGB_resnet50_shift8_blockres_avg_segment8_e50.pth --gcn_pretrained=pretrained/st_gcn.kinetics.pt --pcl_anno 'annotation(2)(1).json'
 ```
