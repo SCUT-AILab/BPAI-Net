@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="nigengqin@202.38.247.184:22">
+    <serverData>
+      <paths name="16">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/cephfs/home/nigengqin/BPAI-Net" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Copy of project-level server 'nigengqin@202.38.200.181:22 key'">
+        <serverdata>
+          <mappings>
+            <mapping deploy="tsm_new" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="nigengqin@202.38.247.184:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/cephfs/home/nigengqin/BPAI-Net" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
