@@ -39,7 +39,7 @@ git clone  https://github.com/SCUT-AILab/BPAI-Net
 
 We support experimenting with two publicly available datasets for driver behavior recognition: Drive&Act and PCL-BDB. Here are some steps to download these two datasets.
 
-Drive&Act: you can download it from the [Drive&Act website][drive&act].
+Drive&Act: you can download it from the [Drive&Act website](https://www.driveandact.com/ ).
 
 PCL-BDB: We will release PCL-BDB dataset soon.
 
@@ -62,7 +62,7 @@ The recall scores of BPAI-Net with different backbone on PCL-BDB.
 |  BPAI-Net  | MobileNet V2 | 85.92  |
 |  BPAI-Net  |   ResNet50   | 85.84  |
 
-The BPAI-Net checkpoints with different backbone can be get from [here][checkpoints].
+The BPAI-Net checkpoints with different backbone can be get from [here](https://drive.google.com/drive/folders/1Oqpa0o5Dfkd8Qku3w25Ys69020aJk9CH?usp=sharing ).
 
 
 
@@ -96,7 +96,7 @@ python test_drive.py --arch fusion --arch_cnn resnet50 --num_segments 8 --xyc --
  python test_drive.py --dataset pcl --arch fusion --arch_cnn resnet50 --num_segments 8 --num_class 40 --first layer2 --xyc --test_crops=1 --batch-size=8 --mode test --model_path exp/test/checkpoint.best.pth --root_log exp/test --pcl_anno 'annotation(2)(1).json' --root dataset/pcl-bdb/ --skeleton_json dataset/pcl-bdb/video_pose
 ```
 
- More train and test commands refer to [script.sh][script].
+ More train and test commands refer to [script.sh](https://github.com/SCUT-AILab/BPAI-Net/blob/main/script.sh).
 
 
 
@@ -122,8 +122,6 @@ Runhao Zeng: runhaozeng.cs@gmail.com
  
 
 [**drive&act**]    https://www.driveandact.com/ 
-
-[**pcl-bdb**]    https://pclbdb.netlify.app/ 
 
 [**checkpoints**]    https://drive.google.com/drive/folders/1Oqpa0o5Dfkd8Qku3w25Ys69020aJk9CH?usp=sharing 
 
