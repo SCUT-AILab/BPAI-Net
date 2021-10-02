@@ -2,13 +2,9 @@
 
 
 
-This repo holds the codes and models for the BPAI-Net framework presented on ???.
+This repo holds the codes and models for the BPAI-Net framework.
 
-**Bidirectional Posture-Appearance Interaction Network for Driver Behavior Recognition**
-
-author list
-
-[[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zeng_Graph_Convolutional_Networks_for_Temporal_Action_Localization_ICCV_2019_paper.pdf)
+**Bidirectional Posture-Appearance Interaction Network for Driver Behavior Recognition**, Mingkui Tan\*, Gengqin Ni\*, Xu Liu, Shiliang Zhang, Xiangmiao Wu, Yaowei Wang†, Runhao Zeng†.
 
 
 
@@ -99,16 +95,6 @@ python test_drive.py --arch fusion --arch_cnn resnet50 --num_segments 8 --xyc --
  More train and test commands refer to [script.sh](https://github.com/SCUT-AILab/BPAI-Net/blob/main/script.sh).
 
 
-
-## Citation
-
-Please cite the following paper if you feel BPAI-Net useful to your research
-
-```
-reference
-```
-
- 
 
 ## Contact
 
