@@ -13,8 +13,8 @@ parser.add_argument('--num_segments', type=int, default=8)
 parser.add_argument('--consensus_type', type=str, default='avg')
 parser.add_argument('--k', type=int, default=3)
 
-parser.add_argument('--dropout', '--do', default=0.5, type=float,
-                    metavar='DO', help='dropout ratio (default: 0.5)')
+parser.add_argument('--dropout', '--do', default=0.8, type=float,
+                    metavar='DO', help='dropout ratio (default: 0.8)')
 parser.add_argument('--loss_type', type=str, default="nll",
                     choices=['nll','focal'])
 parser.add_argument('--img_feature_dim', default=256, type=int, help="the feature dimension for each frame")
@@ -38,7 +38,7 @@ parser.add_argument('--momentum', default=0.9, type=float, metavar='M',
                     help='momentum')
 parser.add_argument('--weight-decay', '--wd', default=5e-4, type=float,
                     metavar='W', help='weight decay (default: 5e-4)')
-parser.add_argument('--clip-gradient', '--gd', default=None, type=float,
+parser.add_argument('--clip-gradient', '--gd', default=20, type=float,
                     metavar='W', help='gradient norm clipping (default: disabled)')
 parser.add_argument('--no_partialbn', '--npb', default=False, action="store_true")
 
@@ -50,18 +50,18 @@ parser.add_argument('--eval-freq', '-ef', default=5, type=int,
 
 
 # ========================= Runtime Configs ==========================
-parser.add_argument('-j', '--workers', default=8, type=int, metavar='N',
-                    help='number of data loading workers (default: 8)')
+parser.add_argument('-j', '--workers', default=16, type=int, metavar='N',
+                    help='number of data loading workers (default: 16)')
 parser.add_argument('--resume', default='', type=str, metavar='PATH',
                     help='path to latest checkpoint (default: none)')
 parser.add_argument('-e', '--evaluate', dest='evaluate', action='store_true',
                     help='evaluate model on validation set')
 parser.add_argument('--start-epoch', default=0, type=int, metavar='N',
                     help='manual epoch number (useful on restarts)')
-parser.add_argument('--gpus', type=str, default=0)
+parser.add_argument('--gpus', type=str, default='0')
 parser.add_argument('--flow_prefix', default="", type=str)
 parser.add_argument('--root_log',type=str, default='log')
-parser.add_argument('--root_model', type=str, default='/home/datasets/nigengqin_exps/tsm/checkpoint')
+parser.add_argument('--root_model', type=str, default=None)
 
 parser.add_argument('--shift', default=False, action="store_true", help='use shift for models')
 parser.add_argument('--shift_div', default=8, type=int, help='number of div for shift (default: 8)')
