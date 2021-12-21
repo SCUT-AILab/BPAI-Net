@@ -35,7 +35,7 @@ git clone  https://github.com/SCUT-AILab/BPAI-Net
 
 We support experimenting with two publicly available datasets for driver behavior recognition: Drive&Act and PCL-BDB. Here are some steps to download these two datasets.
 
-Drive&Act: you can download it from the [Drive&Act website](https://www.driveandact.com/ ). The skeleton data can get from Baidu cloud (URL: https://pan.baidu.com/s/1Ia3OyVmNL0Ql6VWzIa6h8w  password: on7x)
+Drive&Act: you can download it from the [Drive&Act website](https://www.driveandact.com/ ). The skeleton data can be obtained from Baidu cloud (URL: https://pan.baidu.com/s/1Ia3OyVmNL0Ql6VWzIa6h8w  password: on7x)
 
 PCL-BDB: We will release PCL-BDB dataset soon.
 
