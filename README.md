@@ -101,6 +101,6 @@ python test_drive.py --arch fusion --arch_cnn resnet50 --num_segments 8 --xyc --
 For any question, please file an issue or contact
 
 ```
-Gengqin Ni: gengqinni@gmail.com
+Gengqin Ni: 394885025@qq.com or gengqinni@gmail.com
 Runhao Zeng: runhaozeng.cs@gmail.com
 ```
